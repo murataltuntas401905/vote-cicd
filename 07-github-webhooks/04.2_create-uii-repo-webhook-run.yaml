@@ -8,9 +8,9 @@ spec:
   inputs:
     params:
     - name: GitHubOrg
-      value: "nikhil-thomas"
+      value: "murataltuntas401905"
     - name: GitHubUser
-      value: "nikhil-thomas"
+      value: "murataltuntas401905"
     - name: GitHubRepo
       value: "vote-ui"
     - name: GitHubSecretName
@@ -20,6 +20,6 @@ spec:
     - name: GitHubSecretStringKey
       value: secret
     - name: ExternalDomain
-      value: http://vote-cicd-eventlistener-vote-cicd.apps.nikhil42.devcluster.openshift.com
+      value: http://vote-cicd-eventlistener-vote-cicd.apps.ocptraining4.opstrainingonaws.com
   timeout: 1000s
   serviceAccount: tekton-triggers-createwebhook
